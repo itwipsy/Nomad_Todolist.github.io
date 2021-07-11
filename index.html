@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Momentum APP</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+</head>
+</head>
+
+
+
+<body>  
+
+
+
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name?">
+        <input type="submit" value="Log In" >
+    </form>
+
+
+
+
+    <h2 id="clock"></h2>
+    <h1 class="hidden" id="greeting"></h1>
+    <div id="quote" style="text-align:center">
+        <span></span> <br><br><br>
+        <span ></span>
+    </div>
+
+    <main>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required/>
+        <i class="create-todo fas fa-plus"></i>
+    </form>
+    
+    <ul id="todo-list">
+        
+    </ul>
+
+    </main>
+
+
+    
+    <div id ="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="greeting.js"></script>
+    <script src="clock.js"></script>
+    <script src="quotes.js"></script>
+    <script src="background.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
